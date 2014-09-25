@@ -1,0 +1,65 @@
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\AppareilsWindow.baml
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\DroneWindow.baml
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\UserControlPallier.baml
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\AppareilsWindow.g.cs
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\DroneWindow.g.cs
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\UserControlPallier.g.cs
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\App.g.cs
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF_MarkupCompile.cache
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\bin\InterfaceWPF.exe.config
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\bin\InterfaceWPF.exe
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\bin\InterfaceWPF.pdb
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\AppareilsWindow.baml
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\DroneWindow.baml
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\UserControlPallier.baml
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\AppareilsWindow.g.cs
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\DroneWindow.g.cs
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\UserControlPallier.g.cs
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\App.g.cs
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF_MarkupCompile.cache
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF_MarkupCompile.lref
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.g.resources
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.Properties.Resources.resources
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.exe
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.pdb
+C:\Users\Léo Pro\Desktop\Drony\bin\InterfaceWPF.exe.config
+C:\Users\Léo Pro\Desktop\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.exe
+C:\Users\Léo Pro\Desktop\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.pdb
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\bin\InterfaceWPF.exe.config
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.exe
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.pdb
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\bin\InterfaceWPF.exe
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\bin\InterfaceWPF.pdb
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF_MarkupCompile.lref
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.g.resources
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.Properties.Resources.resources
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceWPF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\bin\InterfaceWPF.exe.config
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\bin\InterfaceWPF.exe
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\bin\InterfaceWPF.pdb
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.csprojResolveAssemblyReference.cache
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\AppareilsWindow.baml
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\DroneWindow.baml
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\UserControlPallier.baml
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\AppareilsWindow.g.cs
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\DroneWindow.g.cs
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\UserControlPallier.g.cs
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\App.g.cs
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF_MarkupCompile.cache
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF_MarkupCompile.lref
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.g.resources
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.Properties.Resources.resources
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.csproj.GenerateResource.Cache
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.exe
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceWPF\obj\x86\Debug\InterfaceWPF.pdb

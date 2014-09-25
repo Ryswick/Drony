@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pa:parametrage xsi:schemaLocation="namespace ../XSD/parametrage.xsd" xmlns:dr="Drone" xmlns:ap="AppareilPhoto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pa="namespace">
+  <dr:drone xmlns:pa="namespace" xsi:schemaLocation="namespace ../XSD/drone.xsd" xmlns:dr="Drone">
+    <dr:nom>HexaKopter</dr:nom>
+    <dr:poids>8.5</dr:poids>
+  </dr:drone>
+  <ap:appareilPhoto xmlns:pa="namespace" xsi:schemaLocation="namespace ../XSD/appareilPhoto.xsd" xmlns:ap="AppareilPhoto">
+    <ap:nom>Sony SAL-13</ap:nom>
+    <ap:poids>1.2</ap:poids>
+    <ap:focal>135</ap:focal>
+  </ap:appareilPhoto>
+  <pa:batterie>
+    <pa:autonomie>180</pa:autonomie>
+  </pa:batterie>
+</pa:parametrage>

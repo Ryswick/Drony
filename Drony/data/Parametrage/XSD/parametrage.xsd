@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema  targetNamespace="namespace"
+  elementFormDefault="qualified"
+  attributeFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:pa="namespace"
+  xmlns:dr="Drone"
+  xmlns:ap="AppareilPhoto"
+  >
+
+  <xs:import namespace="Drone" schemaLocation="../../Drone/XSD/drone.xsd"/>
+  <xs:import namespace="AppareilPhoto" schemaLocation="../../AppareilPhoto/XSD/appareilPhoto.xsd"/>
+
+  <!-- Elément racine du paramétrage -->
+  <xs:element name="parametrage" type="pa:parametrage-type"/>
+
+  <!-- Type d'un paramétrage -->
+  <xs:complexType name="parametrage-type">
+    <xs:sequence>
+      <xs:element name="drone" type="dr:drone-type" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="appareilPhoto" type="ap:appareil-type" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="batterie" type="pa:batterie-type" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Type d'une batterie -->
+  <xs:complexType name="batterie-type">
+    <xs:sequence>
+      <xs:element name="autonomie" type="xs:double" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>

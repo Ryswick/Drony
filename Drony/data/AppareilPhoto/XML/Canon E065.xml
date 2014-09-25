@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ap:appareilPhoto xmlns:pa="namespace" xsi:schemaLocation="namespace ../XSD/appareilPhoto.xsd" xmlns:ap="AppareilPhoto" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ap:nom>Canon E065</ap:nom>
+  <ap:poids>1.5</ap:poids>
+  <ap:focal>100</ap:focal>
+</ap:appareilPhoto>

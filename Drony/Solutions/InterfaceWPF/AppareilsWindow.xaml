@@ -1,0 +1,22 @@
+﻿<Window x:Class="InterfaceWPF.AppareilsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ajouter un appareil photo" Height="176" Width="410">
+    <DockPanel>
+        <WrapPanel DockPanel.Dock="Top">
+            <Label Content="Nom de l'appareil photo" Height="28" HorizontalAlignment="Left"  Name="lbNomAppareil" VerticalAlignment="Top" Width="167" />
+            <TextBox Height="23" Name="tbNomDrone" Width="120" />
+            <Label Content="Focal" Height="28" HorizontalAlignment="Left"  Name="lbFocal" VerticalAlignment="Top" Width="167" />
+            <TextBox Height="23" Name="tbFocal" Width="120" />
+            <Label Content="mm" Height="28" Width="39" />
+            <Label Content="Poids" Height="28" Name="lbPoids" Width="167" />
+            <TextBox Height="23" Name="tbPoids" Width="120" />
+            <Label Content="kg" Height="28" Width="39" />
+        </WrapPanel>
+        <WrapPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center">
+            <Button Content="Ajouter"  Name="btnAjouter" Width="75" Margin="15" Click="btnAjouter_Click" />
+            <Button Content="Annuler"  Name="btnAnnuler" Width="75" Margin="15" Click="btnAnnuler_Click" />
+        </WrapPanel>
+    </DockPanel>
+</Window>
+

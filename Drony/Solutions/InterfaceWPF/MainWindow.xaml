@@ -1,0 +1,94 @@
+﻿<Window x:Class="InterfaceWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        Title="Drony" xmlns:my="clr-namespace:InterfaceWPF">
+
+    <DockPanel Width="auto">
+        <Grid ClipToBounds="True" Height="auto">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TabControl Grid.Column="1" TabStripPlacement="Right" Height="auto" HorizontalAlignment="Left" Name="tabControl1" Width="250" IsHitTestVisible="True">
+                <TabItem Name="Paramétrage" FontSize="9">
+                    <TabItem.Header>
+                        <ItemsControl HorizontalAlignment="Center"
+                              HorizontalContentAlignment="Center"
+                              ItemsSource="Paramétrage"/>
+                    </TabItem.Header>
+                    <Canvas Name="SideBarCanvas" Width="213" Background="{x:Null}">
+                        <WrapPanel Width="213" Name="SettingPanel">
+                            <Label Content="Altitude minimale" Width="96" Height="40" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Name="tbAltMin" VerticalAlignment="Top" Width="70"/>
+                            <Label Content="Altitude maximale" Height="38" HorizontalAlignment="Left" Name="lbAltMax" VerticalAlignment="Top" Width="96" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Name="tbAltMax" VerticalAlignment="Top" Width="70"/>
+                           
+                            <Label Height="37" HorizontalAlignment="Left" Name="lbModeleDrone" VerticalAlignment="Top" Content="Modele Drone" Width="96" />
+                            <ComboBox Name="cbModeleDrone" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70">
+                            </ComboBox>
+                            <Button Content="+" Height="25" Name="ajouterDrone" Width="20" Margin="0,-13,0,0" Click="ajouterDrone_Click" />
+                            <Button Content="-" Height="25" Name="supprimerDrone" Width="20" Margin="0,-13,0,0" Click="supprimerDrone_Click" />
+                            <Label Height="37" HorizontalAlignment="Left" Name="lbAppareilPhoto" VerticalAlignment="Top" Content="Appareil Drone" Width="96" />
+                            <ComboBox Name="cbAppareilPhoto" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70">
+                            </ComboBox>
+                            <Button Content="+" Height="25" Name="ajouterAppareil" Width="20" Margin="0,-13,0,0" Click="ajouterAppareil_Click" />
+                            <Button Content="-" Height="25" Name="supprimerAppareil" Width="20" Margin="0,-13,0,0" Click="supprimerAppareil_Click" />
+                            <Label Content="Autonomie Batterie" Height="23" HorizontalAlignment="Left" Name="lbAutoBatterie" VerticalAlignment="Top" Width="96" />
+                            <TextBox Name="tbAutoBatterie" Width="61" Height="22" />
+                            <Label Content="secondes" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Width="49" />
+                            <!--<Button Name="btnAjouterPalliers" Content="Ajouter Palliers" Click="btnAjouterPalliers_Click" Height="23" Width="76" Margin="10,0,0,10"/>-->
+                            <WrapPanel Margin="0,5,0,0">
+                                <Label Content="Dossier de sortie" Height="23" HorizontalAlignment="Left" Name="lbDossierSortie" VerticalAlignment="Top" Width="96" />
+                                <TextBox Height="23" HorizontalAlignment="Left" Name="tbPath" VerticalAlignment="Top" Width="61"  />
+                                <Button Name="btnParcourir" Content="..." Click="btnParcourir_Click" Height="23" Width="19" Margin="10,0,0,10"/>
+                            </WrapPanel>
+
+                        </WrapPanel>
+                    </Canvas>
+                </TabItem>
+                <TabItem Name="Carte" FontSize="9">
+                    <TabItem.Header>
+                        <ItemsControl HorizontalAlignment="Center"
+                              HorizontalContentAlignment="Center"
+                              ItemsSource="Carte" Visibility="Visible" />
+                    </TabItem.Header>
+                    <Canvas Name="canvasCarte" Width="196.706" Background="{x:Null}">
+                        <StackPanel>
+                            <WrapPanel Width="203">
+                                <Label Content="Adresse" Name="lbAdresse" Width="63" Height="22" />
+                                <TextBox Height="22" HorizontalAlignment="Left" Name="tbAdresse" VerticalAlignment="Top" Width="134" KeyDown="tbAdresse_KeyDown" />
+                                <Button Content="Charger" Height="23" Name="btnCharger"  Width="102"  Margin="10,10,0,2" Click="btnCharger_Click" />
+
+                                <GroupBox Header="Types des Points" Margin="0,5" Padding="1,2" Width="150" Height="80">
+                                    <StackPanel>
+                                        <RadioButton Name="cbTrajectoire" Margin="10,5,10,0">Trajectoire</RadioButton>
+                                        <RadioButton Name="cbTrajectoirePhoto" Margin="10,5,10,0">Trajectoire (avec photo)</RadioButton>
+                                        <RadioButton Name="cbDépart" Margin="10,5,10,0">Départ</RadioButton>
+                                    </StackPanel>
+                                </GroupBox>
+
+                                <GroupBox Header="Altitude" Width="150">
+                                    <WrapPanel>
+                                        <Slider  TickPlacement="BottomRight" Name="sliderAltitude" Height="150" Width="20" Orientation="Vertical" Minimum="{Binding ElementName=tbAltMin, Path=Text}" Maximum="{Binding ElementName=tbAltMax, Path=Text}" ValueChanged="sliderAltitude_ValueChanged" Value="{Binding ElementName=tbAltitude,Path=Text,StringFormat={}{0:#.00}}" AutoToolTipPlacement="BottomRight" />
+                                        <TextBox Name="tbAltitude" Text="{Binding ElementName=sliderAltitude,Path=Value}" Height="25" Width="51" VerticalAlignment="Bottom" MaxLength="4"/>
+                                        <Label Content="meters" VerticalAlignment="Bottom"/>
+                                    </WrapPanel>
+                                </GroupBox>
+                                <StackPanel Width="150">
+                                    <Button Content="Effacer Push Pins" Height="23" Name="btnClear" Width="75" Margin="10,10,0,10" Click="btnClear_Click" HorizontalAlignment="Left"/>
+                                    <Button Name="btnCreerTrajectoire" Content="Tracer Trajectoire" Click="btnCreerTrajectoire_Click" Height="23" Width="76" Margin="10,0,0,10" HorizontalAlignment="Left"/>
+                                    <Button Name="btnVerificationTrajectoire" Content="Vérification Trajectoire" Click="btnVerificationTrajectoire_Click" Height="23" Width="auto" Margin="10,0,0,10" HorizontalAlignment="Left"/>
+                                    <Button Name="btnExporterTrajectoire" Content="Exporter Trajectoire" Click="btnExporterTrajectoire_Click" Height="23" Width="auto" Margin="10,0,0,10" HorizontalAlignment="Left"/>
+                                </StackPanel>
+                            </WrapPanel>
+                        </StackPanel>
+                    </Canvas>
+                </TabItem>
+            </TabControl>
+            <m:Map Name="maMap" Mode="AerialWithLabels"  Center="45.7623140307383,3.10888681927891" CredentialsProvider="Ai5VMSWbT1jGloD6rJoiMgm4TD1OP9zciEjl5Y7cJk_NzXEbB1v1oIjx65GJrPRj" 
+               ZoomLevel="16"  MouseDoubleClick="maMap_MouseDoubleClick">
+            </m:Map>
+        </Grid>
+    </DockPanel>
+</Window>

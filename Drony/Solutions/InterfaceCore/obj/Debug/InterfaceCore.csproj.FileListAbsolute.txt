@@ -1,0 +1,18 @@
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\bin\InterfaceCore.dll.config
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\bin\InterfaceCore.dll
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\bin\InterfaceCore.pdb
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceCore\obj\Debug\InterfaceCore.dll
+C:\Users\Bahamut Heroes\Desktop\Drony\Drony\Solutions\InterfaceCore\obj\Debug\InterfaceCore.pdb
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\bin\InterfaceCore.dll.config
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\bin\InterfaceCore.dll
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\bin\InterfaceCore.pdb
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceCore\obj\Debug\InterfaceCore.dll
+C:\Users\Léo Pro\Documents\Visual Studio 2010\Projects\Drony\Solutions\InterfaceCore\obj\Debug\InterfaceCore.pdb
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\bin\InterfaceCore.dll.config
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\bin\InterfaceCore.dll
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\bin\InterfaceCore.pdb
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceCore\obj\Debug\InterfaceCore.csprojResolveAssemblyReference.cache
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceCore\obj\Debug\InterfaceCore.dll
+C:\Users\Bahamut Heroes\Documents\GitHub\Drony\Solutions\InterfaceCore\obj\Debug\InterfaceCore.pdb

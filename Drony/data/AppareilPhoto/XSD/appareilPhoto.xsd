@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema  targetNamespace="AppareilPhoto"
+  elementFormDefault="qualified"
+  attributeFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:ap="AppareilPhoto"
+  >
+
+  <!-- Elément racine de l'appareil photo -->
+  <xs:element name="appareil" type="ap:appareil-type"/>
+
+  <!-- Type d'un appareil photo -->
+  <xs:complexType name="appareil-type">
+    <xs:sequence>
+      <xs:element name="nom" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="poids" type="xs:float" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="focal" type="xs:float" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+</xs:schema>

@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<dr:drone xmlns:pa="namespace" xsi:schemaLocation="namespace ../XSD/drone.xsd" xmlns:dr="Drone" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dr:nom>HexaKopter</dr:nom>
-  <dr:poids>8.5</dr:poids>
-</dr:drone>

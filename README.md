@@ -1,9 +1,9 @@
 Drony
 =====
 
-C# Software allowing the creation of a flight plan for an Hexakopter (http://www.mikrokopter.de/ucwiki/fr/HexaKopter) which is a drone.
+C# software allowing the creation of a flight plan for an Hexakopter (http://www.mikrokopter.de/ucwiki/fr/HexaKopter) which is a drone.
 This project has been realized with Léo Riera, Vincent Voyer and Maxime Caly.
-The program is using the Google Maps API in order to give to the user the possibility to place pinpoints on a dynamic map. After having set the beginning point, the user can determine the flight path by placing other points on the map. There is a possibility to place pinpoints where the Hexakopter would have to take a photo with an embedded camera.
+The software uses the Google Maps API in order to give to the user the possibility to place pinpoints on a dynamic map. After having set the beginning point, the user can decide on the flight path by placing other points on the map. There is a possibility to place pinpoints where the Hexakopter would have to take a photo with an embedded camera.
 After having placed all the pinpoints, the user can export his trajectory in a file thanks to a parser which converts the flight informations in a language comprehensible by the drone.
 
 The user interface gives the possibility to enter an address in order to jump to any location on the map. It also allows the user to enter informations concerning the flight, like the kind of drone, of camera used or the autonomy of the batteries.
